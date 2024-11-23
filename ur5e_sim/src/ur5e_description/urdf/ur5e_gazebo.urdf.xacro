@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="ure">
+    <link name="base_footprint"/>
+    <link name="base_link">
+      <visual>
+        <origin rpy="0 0 3.141592653589793" xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="$(find ur5e_description)/mesh/base_link.stl"/>
+        </geometry>
+        <material name="LightGrey">
+          <color rgba="0.7 0.7 0.7 1.0"/>
+        </material>
+      </visual>
+      <collision>
+        <origin rpy="0 0 3.141592653589793" xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="$(find ur5e_description)/mesh/base_link.stl"/>
+        </geometry>
+      </collision>
+      <inertial>
+        <mass value="4.0"/>
+        <origin rpy="0 0 0" xyz="0 0 0"/>
+        <inertia ixx="0.00443333156" ixy="0.0" ixz="0.0" iyy="0.00443333156" iyz="0.0" izz="0.0072"/>
+      </inertial>
+    </link>
+    <joint name="base_footprint_base_link" type="fixed">
+      <parent link="base_footprint"/>
+      <child link="base_link"/>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+    </joint>
+</robot>
