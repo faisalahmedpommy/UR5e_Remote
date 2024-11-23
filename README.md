@@ -5,6 +5,5 @@ This project demonstrates using **oculus vr plugin in unity** and **Moveit2** mo
 
 Experiment Record
 
-<iframe width="560" height="315" src="https://youtu.be/r2ABSxSoVXg" 
-frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
+[![Watch the Experiment](https://img.youtube.com/vi/ASt-VLhafwI/0.jpg)](https://youtu.be/ASt-VLhafwI)
+
