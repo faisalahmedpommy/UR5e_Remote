@@ -5,4 +5,4 @@ This project demonstrates using **oculus vr plugin in unity** and **Moveit2** mo
 
 Experiment Record
 
-[![Watch the Experiment](https://img.youtube.com/vi/r2ABSxSoVXg/0.jpg)](https://youtu.be/r2ABSxSoVXg)
+[![Watch the Experiment](https://img.youtube.com/vi/r2ABSxSoVXg/0.jpg)](https://youtu.be/ASt-VLhafwI)
