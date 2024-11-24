@@ -1,5 +1,5 @@
 # VR_control_ur5e-
-# UR5e_Unity
+# UR5e_Unity_OculusVR
 
 This project demonstrates using **oculus vr plugin in unity** and **Moveit2** motion planning framework with **ROS2 Humble** for the middleware communication. It features a 6-dof **Universal Robots UR5e**. 
 
